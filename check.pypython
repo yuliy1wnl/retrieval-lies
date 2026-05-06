@@ -1,0 +1,1 @@
+import json  passages = open('data/msmarco/passages.jsonl').readlines()  queries = open('data/msmarco/queries.jsonl').readlines()  qrels = open('data/msmarco/qrels.jsonl').readlines()  print(f'Passages: {len(passages)}')  print(f'Queries:  {len(queries)}')  print(f'Qrels:    {len(qrels)}')  print('Sample query:', json.loads(queries[0]))  check.py

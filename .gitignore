@@ -1,0 +1,9 @@
+venv/
+data/msmarco/
+results/
+__pycache__/
+*.pyc
+check.py
+debug_index.py
+show_results.py
+show_failures.py
